@@ -43,3 +43,4 @@ with open('dosya.txt','w') as d:
     d.write(', '.join(doc))
 
 #comment line added
+#hello world
