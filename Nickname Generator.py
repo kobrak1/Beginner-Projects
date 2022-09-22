@@ -30,9 +30,6 @@ if choice=='2':
 
 
 while i<15:
-
-
-
     x = random.randint(4,8)
     name = ''.join(random.sample(list, x))
     doc.append(name)
