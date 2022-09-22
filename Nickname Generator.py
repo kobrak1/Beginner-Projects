@@ -11,7 +11,7 @@ try:
 except:
     print('The answer must be numeric.')
 
-time.sleep(2)
+time.sleep(1)
 
 if choice == '1':
     print('You chose "Just Lowercase" nickname type.')
@@ -41,3 +41,5 @@ while i<15:
         pass
 with open('dosya.txt','w') as d:
     d.write(', '.join(doc))
+
+#comment line added
